@@ -62,7 +62,7 @@ var post = {
             alert("Updated Post!");
             let index = this.posts.findIndex(
                 (e) =>
-                    e.title === this.oldTitletitle &&
+                    e.title === this.oldTitle &&
                     e.content === this.oldContent
             );
             this.$emit("update-post", {
