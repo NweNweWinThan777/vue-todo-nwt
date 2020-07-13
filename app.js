@@ -77,7 +77,7 @@ var post = {
 
 var createPost = {
     template: `
-  <div class="container">
+  <div class="container p-0">
     <div class="input-group input-group-sm mb-3">
       <div class="input-group-prepend">
         <span class="input-group-text" id="inputGroup-sizing-sm">Title</span>

@@ -12,10 +12,10 @@
 
 <body>
 
-  <div id="app">
-
+  <h3 class="text-center mt-5"> Vue Simple CRUD </h3>
+  <div id="app" class="mt-5">
     <create-post @create-post="insertPost"></create-post>
-    <div class="container mt-3 table table-dark">
+    <div class="container mt-5 table table-dark">
       <post v-for="(p,i) in posts" :key="i" :name="p.title" :content="p.content" :posts="posts"
         @delete-post="deletePost" @update-post="updatePost"></post>
     </div>
